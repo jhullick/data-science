@@ -11,7 +11,6 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
  In this analysis, I explore the relationship between **high rated food venues** and the **demographic of their local area**.
 </p>
 <h2>Data</h2>
-<br>
 <p>The data used is from 3 sources:
   <br>
   <ol>
@@ -38,7 +37,7 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
   For this analysis, I'm only looking to understand successful or highly rated food venues. In this case, I define success as being **Greater than 7 out of 10**. After slicing out the venues that meet that criteria, the final dataframe I used looks like this:
   <img></img>
 </p>
-<h3>Exploratory Analysis</h3><br>
+<h3>Exploratory Analysis</h3>
 <p> The map below gives an idea of the size and number of census tracts. 
   <br><img></img>
   Here's the same map with the highly rated venues overlayed.
@@ -65,5 +64,5 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
   <img></img>
 <h2>Insights</h2>
 
-The analysis reiterates the close connection different cultures have with their food, with the race of a small areas having a predictable relationship with the food outlets that were successful there. Particularly, Asian communities were shown to host the majority of successful Asian restaurants from the sample. The relationship between demographic and successful food venues was reiterated by a 42% accurate predictive model, which has implications for developers looking to invest in an area.
+The analysis reiterates the close connection different cultures have with their food, with the race of a small areas having a predictable relationship with the food outlets that were successful there. Particularly, Asian communities were shown to host the majority of successful Asian restaurants from the sample. The relationship between demographic and successful food venues was reiterated by a 42% accurate predictive model, which could be used to recommend a food outlet to developers looking to invest in an area.
 </p>
