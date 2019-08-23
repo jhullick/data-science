@@ -1,6 +1,6 @@
 # data-science
 <h1> Exploring relationships between NYC food outlets and local demographics </h1>
-*This blog post is created as part of the Coursera Data Science Capstone project*
+<em> blog post is created as part of the Coursera Data Science Capstone project</em>
 <br>
 <h2> Introduction </h2>
 <p>
