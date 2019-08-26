@@ -25,8 +25,8 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
  To begin with, I loaded NYC Geo Data and NYC 2010 Census data into my notebook from storage. <br>
   Using the Foursquare places API, I retrieved the data for ~300 food venues. 
  I then used the Shapely python library to convert the GeoJSON into polygons which could then be compared with the venue data to assign each a Census Tract code. <br>
-  The data was then combined into this dataframe and given a nice scrub. 
-  <img></img>
+  The data was then combined into this dataframe and cleaned. <br>
+ <img src='img/DF1.png' height=50% width=50% align="middle">
   <br>
   From here, because classification models can struggle with a lot of classifications, I decided to use only the top five venues - 
   <ol><li>Coffee Shop</li> 
@@ -35,21 +35,43 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
   <li>Food Court</li>  
   <li>Fast Food Restaraunt</li>
   </ol>
-  For this analysis, I'm only looking to understand successful or highly rated food venues. In this case, I define success as having a <b>Rating greater than 7 out of 10.</b> After slicing out the venues that meet that criteria, the final dataframe I used looks like this:
-  <img></img>
+  For this analysis, I'm only looking to understand successful or highly rated food venues. In this case, I define success as having a <b>Rating greater than 7 out of 10, so I cut out any that don't fit this criteria</b>  
+  
 </p>
 <h3>Exploratory Analysis</h3>
 <p> The map below gives an idea of the size and number of census tracts. 
-  <br><img src="/Maps/Map1.png" alt="hi" class="inline"/>
+  <br> <img src='Maps/Map1.PNG' height=50% width=50% align="middle"><br>
   Here's the same map with the highly rated venues overlayed.
-  <br><img></img>
+  <br> <img src='Maps/Map2.PNG' height=50% width=50% align="middle"><br>
   As you can see, the sample of venues is reasonably well dispersed NYC - so this analysis should give a fairly accurate picture of NYC as a whole. If the API allowed for more free calls this data could be improved.
-  Here's the same map showing the different income per capita areas relating to our data.
-  <br><img></img>
-  Here you can see the areas highlighted based on the most popular race.
-  <br><img></img>
+
   The following box plots show key the income and race of the population in the area for high rated venues in each category.
-  <br><img></img>
+  <br>
+  <figure><img src='img/Venue%20v%20IncomePerCap.png' height=50% width=50% align="middle">
+  <figcaption>
+   Categories of High Rated Venues with Income per Capita of local area
+ </figcaption>
+   </figure>
+   <br>
+  <br>
+  <figure><img src='img/venue%20v%20asian.png' height=50% width=50% align="middle">
+  <figcaption>
+   Categories of high rated venues with Asian Population of Local Area
+ </figcaption>
+   </figure> 
+  <br>
+  <figure><img src='img/venue%20v%20black.png' height=50% width=50% align="middle">
+  <figcaption>
+   Categories of High Rated Venues with Black Population of Local Area
+ </figcaption>
+   </figure>
+  <br>
+  <figure><img src='img/venue%20v%20white.png' height=50% width=50% align="middle">
+  <figcaption>
+   Categories of High Rated Venues with White Population of Local Area
+ </figcaption>
+   </figure>
+  <br>
   A few key points to take from these plots:
   <ul>
     <li> The majority of successful Asian restaurants can be found in census tract areas with relatively high Asian populations</li>
@@ -63,7 +85,8 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
 <p> The classification model I chose for this analysis was the supervised method K-Nearest Neighbours for it's simplicity and general applicability. Prior to fitting the model, I reduced the data to feature only race and income per capita.
   To determine the optimal k number of neighbours, I fit the model with k=1 through k=10 and determined 7 was the most optimal.
   The accuracy of the model is shown below:
-  <img></img>
+ <br>
+  <img src='img/model.png' height=50% width=50% align="middle">
 <h2>Insights</h2>
 
 The analysis reiterates the close connection different cultures have with their food, with the race of a small areas having a predictable relationship with the food outlets that were successful there. Particularly, Asian communities were shown to host the majority of successful Asian restaurants from the sample. The relationship between demographic and successful food venues was reiterated by a 42% accurate predictive model, which could be used to recommend a food outlet to developers looking to invest in an area.
