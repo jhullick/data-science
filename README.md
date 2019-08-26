@@ -28,6 +28,7 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
   The data was then combined into this dataframe and cleaned. <br>
  </p>
   <img src='img/df1.PNG' height=50% width=50% align="middle">
+  ![Dataframe](img/df1.PNG)
  <p>
  <br>
   From here, because classification models can struggle with a lot of classifications, I decided to use only the top five venues - 
