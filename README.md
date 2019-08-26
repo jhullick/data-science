@@ -8,7 +8,7 @@ New York City is ranked as one of the most diverse cities in the world, featurin
  <br>
 Food outlets are in abundance in New York, with the popularity and incidence of different food venue types likely having a close relationship with the demographics of the localised population. Understanding how the demographic of an area affect the success of venues and having the ability to select the most suitable food venue for an area can be advantageous for developers and future business owners.
 <br>
- In this analysis, I explore the relationship between **high rated food venues** and the **demographic of their local area**.
+ In this analysis, I explore the relationship between <b>high rated food venues</b> and the <b>demographic of their local area</b>.
 </p>
 <h2>Data</h2>
 <p>The data used is from 3 sources:
