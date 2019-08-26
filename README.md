@@ -23,18 +23,19 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
  <h3>Data Preparation</h3>
 <p>
  To begin with, I loaded NYC Geo Data and NYC 2010 Census data into my notebook from storage. <br>
-  Using the Foursquare places API, I retrieved the data for ~300 food venues. I then used the Shapely python library to convert the GeoJSON into polygons which could then be compared with the venue data to assign each a Census Tract code. <br>
+  Using the Foursquare places API, I retrieved the data for ~300 food venues. 
+ I then used the Shapely python library to convert the GeoJSON into polygons which could then be compared with the venue data to assign each a Census Tract code. <br>
   The data was then combined into this dataframe and given a nice scrub. 
   <img></img>
   <br>
-  From here, because classification models can struggle with a lot of options, I decided to use only the top five venues - 
+  From here, because classification models can struggle with a lot of classifications, I decided to use only the top five venues - 
   <ol><li>Coffee Shop</li> 
   <li>American Restaurant</li> 
   <li>Asian Restaurant</li> 
   <li>Food Court</li>  
   <li>Fast Food Restaraunt</li>
   </ol>
-  For this analysis, I'm only looking to understand successful or highly rated food venues. In this case, I define success as being **Greater than 7 out of 10**. After slicing out the venues that meet that criteria, the final dataframe I used looks like this:
+  For this analysis, I'm only looking to understand successful or highly rated food venues. In this case, I define success as having a <b>Rating greater than 7 out of 10.</b> After slicing out the venues that meet that criteria, the final dataframe I used looks like this:
   <img></img>
 </p>
 <h3>Exploratory Analysis</h3>
@@ -42,7 +43,8 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
   <br><img></img>
   Here's the same map with the highly rated venues overlayed.
   <br><img></img>
-  As you can see, the sample of venues are well dispersed across NYC - so this analysis should give a fairly accurate picture of NYC as a whole. Here's the same map showing the different income per capita areas relating to our data.
+  As you can see, the sample of venues is reasonably well dispersed NYC - so this analysis should give a fairly accurate picture of NYC as a whole. If the API allowed for more free calls this data could be improved.
+  Here's the same map showing the different income per capita areas relating to our data.
   <br><img></img>
   Here you can see the areas highlighted based on the most popular race.
   <br><img></img>
