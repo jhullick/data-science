@@ -1,5 +1,4 @@
 # data-science
-![Dataframe](img/df1.PNG)
 <h1> Exploring relationships between NYC food outlets and local demographics </h1>
 <em> blog post is created as part of the Coursera Data Science Capstone project</em>
 <br>
@@ -28,7 +27,6 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
  I then used the Shapely python library to convert the GeoJSON into polygons which could then be compared with the venue data to assign each a Census Tract code. <br>
   The data was then combined into this dataframe and cleaned. <br>
  </p>
-  <img src='img/df1.PNG' height=50% width=50% align="middle">
   ![Dataframe](img/df1.PNG)
  <p>
  <br>
@@ -44,7 +42,10 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
 </p>
 <h3>Exploratory Analysis</h3>
 <p> The map below gives an idea of the size and number of census tracts. 
-  <br> <img src='Maps/Map1.PNG' height=50% width=50% align="middle"><br>
+ </p>
+  <br> ![Dataframe](Maps/Map1.PNG) 
+  /*<img src='Maps/Map1.PNG' height=50% width=50% align="middle"><br>*/
+  <p>
   Here's the same map with the highly rated venues overlayed.
   <br> <img src='Maps/Map2.PNG' height=50% width=50% align="middle"><br>
   As you can see, the sample of venues is reasonably well dispersed NYC - so this analysis should give a fairly accurate picture of NYC as a whole. If the API allowed for more free calls this data could be improved.
