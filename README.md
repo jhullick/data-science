@@ -43,35 +43,51 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
 <h3>Exploratory Analysis</h3>
 <p> The map below gives an idea of the size and number of census tracts. 
  </p>
-  <br> ![Dataframe](Maps/Map1.PNG) 
-  /*<img src='Maps/Map1.PNG' height=50% width=50% align="middle"><br>*/
+  <br> ![Map1](Maps/Map1.PNG) 
+  <!–--<img src='Maps/Map1.PNG' height=50% width=50% align="middle"><br>--->
   <p>
   Here's the same map with the highly rated venues overlayed.
-  <br> <img src='Maps/Map2.PNG' height=50% width=50% align="middle"><br>
+  <br> </p>
+  ![Map1](Maps/Map2.PNG) 
+  <!---<img src='Maps/Map2.PNG' height=50% width=50% align="middle">--->
+  <p>
+  <br>
   As you can see, the sample of venues is reasonably well dispersed NYC - so this analysis should give a fairly accurate picture of NYC as a whole. If the API allowed for more free calls this data could be improved.
 
   The following box plots show key the income and race of the population in the area for high rated venues in each category.
   <br>
-  <figure><img src='img/Venue%20v%20IncomePerCap.png' height=50% width=50% align="middle">
+  </p>
+  ![Income](img/Venue%20v%20IncomePerCap.png)
+  <p>
+  <figure> <!---<img src='img/Venue%20v%20IncomePerCap.png' height=50% width=50% align="middle">--->
   <figcaption>
    Categories of High Rated Venues with Income per Capita of local area
  </figcaption>
    </figure>
    <br>
   <br>
-  <figure><img src='img/venue%20v%20asian.png' height=50% width=50% align="middle">
+ </p>
+ ![Asian](img/venue%20v%asian.png)
+ <p>
+  <figure><!--<img src='img/venue%20v%20asian.png' height=50% width=50% align="middle">-->
   <figcaption>
    Categories of high rated venues with Asian Population of Local Area
  </figcaption>
    </figure> 
   <br>
+ </p>
+ ![Black](img/venue%20v%black.png)
+ <p>
   <figure><img src='img/venue%20v%20black.png' height=50% width=50% align="middle">
   <figcaption>
    Categories of High Rated Venues with Black Population of Local Area
  </figcaption>
    </figure>
   <br>
-  <figure><img src='img/venue%20v%20white.png' height=50% width=50% align="middle">
+ </p>
+ ![White](img/venue%20v%white.png)
+ <p>
+  <figure><!--<img src='img/venue%20v%20white.png' height=50% width=50% align="middle">-->
   <figcaption>
    Categories of High Rated Venues with White Population of Local Area
  </figcaption>
@@ -91,7 +107,9 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
   To determine the optimal k number of neighbours, I fit the model with k=1 through k=10 and determined 7 was the most optimal.
   The accuracy of the model is shown below:
  <br>
-  <img src='img/model.PNG' height=50% width=50% align="middle">
+ </p>
+ ![Model](img/model.png)
+  <!--<img src='img/model.PNG' height=50% width=50% align="middle">-->
 <h2>Insights</h2>
 
 The analysis reiterates the close connection different cultures have with their food, with the race of a small areas having a predictable relationship with the food outlets that were successful there. Particularly, Asian communities were shown to host the majority of successful Asian restaurants from the sample. The relationship between demographic and successful food venues was reiterated by a 42% accurate predictive model, which could be used to recommend a food outlet to developers looking to invest in an area.
