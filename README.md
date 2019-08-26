@@ -1,4 +1,5 @@
 # data-science
+![Dataframe](img/df1.PNG)
 <h1> Exploring relationships between NYC food outlets and local demographics </h1>
 <em> blog post is created as part of the Coursera Data Science Capstone project</em>
 <br>
