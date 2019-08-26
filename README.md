@@ -44,7 +44,7 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
 <p> The map below gives an idea of the size and number of census tracts. 
  </p>
   <br> ![Map1](Maps/Map1.PNG) 
-  <!–--<img src='Maps/Map1.PNG' height=50% width=50% align="middle"><br>--->
+  
   <p>
   Here's the same map with the highly rated venues overlayed.
   <br> </p>
@@ -56,42 +56,42 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
 
   The following box plots show key the income and race of the population in the area for high rated venues in each category.
   <br>
-  </p>
-  ![Income](img/Venue%20v%20IncomePerCap.png)
-  <p>
-  <figure> <!---<img src='img/Venue%20v%20IncomePerCap.png' height=50% width=50% align="middle">--->
+   <figure> <!---<img src='img/Venue%20v%20IncomePerCap.png' height=50% width=50% align="middle">--->
   <figcaption>
    Categories of High Rated Venues with Income per Capita of local area
  </figcaption>
    </figure>
+  </p>
+  ![Income](img/Venue%20v%20IncomePerCap.png)
+  <p>
    <br>
   <br>
- </p>
- ![Asian](img/venue%20v%asian.png)
- <p>
-  <figure><!--<img src='img/venue%20v%20asian.png' height=50% width=50% align="middle">-->
+ <figure><!--<img src='img/venue%20v%20asian.png' height=50% width=50% align="middle">-->
   <figcaption>
    Categories of high rated venues with Asian Population of Local Area
  </figcaption>
    </figure> 
-  <br>
  </p>
- ![Black](img/venue%20v%black.png)
+ ![Asian](img/venue%20v%20asian.png)
  <p>
-  <figure><img src='img/venue%20v%20black.png' height=50% width=50% align="middle">
+  <br>
+ <figure>
   <figcaption>
    Categories of High Rated Venues with Black Population of Local Area
  </figcaption>
    </figure>
-  <br>
  </p>
- ![White](img/venue%20v%white.png)
+ ![Black](img/venue%20v%20black.png)
  <p>
-  <figure><!--<img src='img/venue%20v%20white.png' height=50% width=50% align="middle">-->
+  <br>
+ <figure><!--<img src='img/venue%20v%20white.png' height=50% width=50% align="middle">-->
   <figcaption>
    Categories of High Rated Venues with White Population of Local Area
  </figcaption>
    </figure>
+ </p>
+ ![White](img/venue%20v%20white.png)
+ <p>
   <br>
   A few key points to take from these plots:
   <ul>
@@ -108,7 +108,7 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
   The accuracy of the model is shown below:
  <br>
  </p>
- ![Model](img/model.png)
+ ![Model](img/model.PNG)
   <!--<img src='img/model.PNG' height=50% width=50% align="middle">-->
 <h2>Insights</h2>
 
