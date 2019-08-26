@@ -40,7 +40,7 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
 </p>
 <h3>Exploratory Analysis</h3>
 <p> The map below gives an idea of the size and number of census tracts. 
-  <br><img src='map1.PNG></img>
+  <br><img src="/Maps/Map1.png" alt="hi" class="inline"/>
   Here's the same map with the highly rated venues overlayed.
   <br><img></img>
   As you can see, the sample of venues is reasonably well dispersed NYC - so this analysis should give a fairly accurate picture of NYC as a whole. If the API allowed for more free calls this data could be improved.
