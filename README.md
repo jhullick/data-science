@@ -26,7 +26,7 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
   Using the Foursquare places API, I retrieved the data for ~300 food venues. 
  I then used the Shapely python library to convert the GeoJSON into polygons which could then be compared with the venue data to assign each a Census Tract code. <br>
   The data was then combined into this dataframe and cleaned. <br>
- <img src='img/DF1.png' height=50% width=50% align="middle">
+ <img src='img/DF1.PNG' height=50% width=50% align="middle">
   <br>
   From here, because classification models can struggle with a lot of classifications, I decided to use only the top five venues - 
   <ol><li>Coffee Shop</li> 
@@ -86,7 +86,7 @@ Food outlets are in abundance in New York, with the popularity and incidence of 
   To determine the optimal k number of neighbours, I fit the model with k=1 through k=10 and determined 7 was the most optimal.
   The accuracy of the model is shown below:
  <br>
-  <img src='img/model.png' height=50% width=50% align="middle">
+  <img src='img/model.PNG' height=50% width=50% align="middle">
 <h2>Insights</h2>
 
 The analysis reiterates the close connection different cultures have with their food, with the race of a small areas having a predictable relationship with the food outlets that were successful there. Particularly, Asian communities were shown to host the majority of successful Asian restaurants from the sample. The relationship between demographic and successful food venues was reiterated by a 42% accurate predictive model, which could be used to recommend a food outlet to developers looking to invest in an area.
